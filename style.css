@@ -1,0 +1,121 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 2px solid #ddd;
+}
+
+header .profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #2ecc71;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: .3rem;
+}
+
+header .subtitle {
+  color: #2ecc71;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #2ecc71;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #2ecc71;
+  padding-left: .5rem;
+}
+
+section p {
+  margin-bottom: 1rem;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills-list span {
+  border: 2px solid #2ecc71;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  font-size: .9rem;
+  cursor: default;
+  transition: background 0.3s, color 0.3s;
+}
+
+.skills-list span:hover {
+  background: #2ecc71;
+  color: #fff;
+}
+
+/* Contact */
+#contact p {
+  margin-bottom: .5rem;
+}
+
+#contact a {
+  color: #111;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #2ecc71;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #111;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: .85rem;
+}
